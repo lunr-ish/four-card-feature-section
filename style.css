@@ -37,6 +37,8 @@ body {
   font-family: var(--ff-poppins);
   font-weight: var(--fw-regular);
   padding: 2rem;
+  background: hsl(var(--clr-bg));
+  color: hsl(var(--clr-primary));
 }
 
 p,
