@@ -1,0 +1,22 @@
+:root {
+  /* COLOR */
+  /* PRIMARY */
+  --clr-red: 0 78% 62%;
+  --clr-cyan: 180 62% 55%;
+  --clr-orange: 34 97% 64%;
+  --clr-blue: 212 86% 64%;
+  /* NEUTRAL */
+  --clr-primary: 234 12% 34%;
+  --clr-secondary: 229 6% 66%;
+  --clr-bg: 0 0% 98%;
+  --clr-white: 0 0% 100%;
+  --clr-black: 0 0% 0%;
+
+  /* FONT FAMILY */
+  --ff-poppins: "Poppins", sans-serif;
+
+  /* FONT WEIGHT */
+  --fw-extra-light: 200;
+  --fw-regular: 400;
+  --fw-semi-bold: 600;
+}
