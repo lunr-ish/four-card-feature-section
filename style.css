@@ -20,3 +20,37 @@
   --fw-regular: 400;
   --fw-semi-bold: 600;
 }
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+}
+
+body {
+  width: 100%;
+  min-height: 100vh;
+  font-family: var(--ff-poppins);
+  font-weight: var(--fw-regular);
+  padding: 2rem;
+}
+
+p,
+h1,
+h2 {
+  overflow-wrap: break-word;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
