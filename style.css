@@ -56,3 +56,36 @@ img {
   display: block;
   max-width: 100%;
 }
+
+header {
+  max-width: 31.25rem;
+  text-align: center;
+  margin: 3.3125rem auto 4.875rem;
+}
+
+.main-heading {
+  font-size: 1.5rem;
+  font-weight: var(--fw-semi-bold);
+}
+
+.main-heading span {
+  display: block;
+  font-weight: var(--fw-extra-light);
+}
+
+.description {
+  color: hsl(var(--clr-secondary));
+  font-size: 0.9375rem;
+  line-height: 1.65;
+  margin-top: 1em;
+}
+
+@media (min-width: 48rem) {
+  header {
+    margin-block: 2.875rem 4.1875rem;
+  }
+
+  .main-heading {
+    font-size: 2.25rem;
+  }
+}
