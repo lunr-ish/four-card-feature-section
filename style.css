@@ -85,7 +85,7 @@ header {
 /* FEATURE CARD */
 
 .features {
-  max-width: 1110px;
+  max-width: 69.375rem;
   margin-inline: auto;
   display: grid;
   grid-template-columns: 1fr;
